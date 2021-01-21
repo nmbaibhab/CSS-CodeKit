@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(25, 25, 112, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* FFD700  gold*/
+/* #7B68EE */
+/* 191970 violet*/
+.result{
+    width: 47vw;
+    height: 47vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 193, 201);
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    background-color: rgba(0, 229, 225, 0.15);
+    border-radius: 3px;
+}
+.output{
+    width: 47vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: 1rem 0.7rem;
+    background-color:rgba(0, 229, 225, 0.15);
+    color: #fff;
+}
+.btn{
+    text-align: center;
+    font-size: .9rem;
+    background: #FFD700;
+    border-radius: 6px;
+    color: #fff;
+    padding: .4rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.input_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    background: rgba(0, 229, 225, 0.2);
+    border: 0;
+    outline: 0;
+    width: 18vw;
+    padding: .6rem;
+    color: snow;
+}
+h3{
+    color: aqua;
+    text-align: center;
+    margin: .8rem 0;
+}
+@media only screen and (max-width: 560px){
+    body{
+        width: 100vw;
+    }
+    .output{
+        width: 80vw;
+        font-size: 14px;
+    }
+    .result{
+        width: 80vw;
+        height: 47vh;
+    }
+    input{
+        width: 34vw;
+    }
+}
